@@ -1,6 +1,6 @@
 php_version: 8.0
 username: ubuntu
-vhost_name: lavarel_project
+vhost_name: laravel-realworld-example-app
 server_document_root: "/var/www/html"
 
 

@@ -46,12 +46,12 @@
 
 - name: checkout latest code from github
   git: >
-    repo=https://github.com/devops4solutions/lavaral_project.git
+    repo=https://github.com/f1amy/laravel-realworld-example-app.git
     dest=/opt/{{ vhost_name }}
     force=yes
     accept_hostkey=yes
 
-- name: copy lavarel project
+- name: copy laravel project
   shell: sudo mv /opt/{{ vhost_name }} /var/www/html/
 
 - name: Change permission
