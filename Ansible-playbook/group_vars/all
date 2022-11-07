@@ -8,11 +8,11 @@ server_document_root: "/var/www/html"
 # Variables for Role Certbot certs.
 certbot_create_if_missing: false
 certbot_create_method: standalone
-certbot_admin_email: devops4solutions@gmail.com
+certbot_admin_email: admin@ozirichigozie.me
 
 certbot_create_standalone_stop_services:
   - apache2
 
 apache_vhosts:
-  - {servername: "php.darvein.xyz", serveralias: "www.php.darvein.xyz", documentroot: "/var/www/html/lavarel_project/public"}
+  - {servername: "ec2-184-72-208-39.compute-1.amazonaws.com", serveralias: "www.ec2-184-72-208-39.compute-1.amazonaws.com", documentroot: "/var/www/html/lavarel_project/public"}
 
