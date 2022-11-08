@@ -14,5 +14,5 @@ certbot_create_standalone_stop_services:
   - apache2
 
 apache_vhosts:
-  - {servername: "ec2-184-72-208-39.compute-1.amazonaws.com", serveralias: "www.ec2-184-72-208-39.compute-1.amazonaws.com", documentroot: "/var/www/html/lavarel_project/public"}
+  - {servername: "ec2-3.84.143.59.compute-1.amazonaws.com", serveralias: "www.ec2-3.84.143.59.compute-1.amazonaws.com", documentroot: "/var/www/html/lavarel_project/public"}
 
